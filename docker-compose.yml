@@ -26,7 +26,7 @@ services:
       - 8081:80
 networks:
   default:
-    name: web
+    name: mariadb
 volumes:
   db-data:
   db-config:
